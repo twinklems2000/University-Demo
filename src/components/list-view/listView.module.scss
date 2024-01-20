@@ -1,0 +1,52 @@
+.mainContainer {
+  margin: auto;
+  .listStyle {
+    border: 2px solid teal;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .infoText {
+      h2 {
+        font-family: "Bebas Neue", cursive;
+        font-size: 1.9rem;
+        letter-spacing: 0.06em;
+        color: var(--title-color);
+        transition: color 0.3s ease-out;
+      }
+    }
+    .btnContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      .buttonStyle,
+      .deleteBtn,
+      .viewBtn {
+        border: 2px solid teal;
+        width: 100px;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        background-color: white;
+        cursor: pointer;
+        color: teal;
+        font-size: 16px;
+        font-weight: 600;
+        height: 45px;
+      }
+      .deleteBtn,
+      .viewBtn {
+        color: #d91e26;
+        border: 2px solid #d91e26;
+      }
+      .viewBtn {
+        background-color: teal;
+        color: white;
+        border: none;
+      }
+    }
+  }
+}
