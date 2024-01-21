@@ -5,6 +5,7 @@
   padding-inline: 24px;
   grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
   gap: 24px;
+  margin-bottom: 30px;
 }
 
 article {
@@ -37,6 +38,21 @@ article h2 {
   letter-spacing: 0.06em;
   color: var(--title-color);
   transition: color 0.3s ease-out;
+}
+
+.listContainer {
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+  transition: color 0.3s ease-out;
+  margin: 10px 0;
+  .titleText {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Bebas Neue", cursive;
+    margin: 10px 0;
+  }
 }
 
 .articleBody {

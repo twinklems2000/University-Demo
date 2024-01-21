@@ -1,22 +1,39 @@
 .buttonContainer {
-  margin: 30px auto;
+  margin: 0px auto 30px auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  button {
-    border: 1px solid transparent;
-    width: 200px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    background-color: teal;
-    cursor: pointer;
-    color: white;
-    font-size: 16px;
-    font-weight: 600;
-    &:hover {
-      border: 3px solid teal;
-      background-color: white;
-      color: teal;
+  height: 400px;
+  background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=1600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dW5pdmVyc2l0eSUyMGJhY2tncm91bmQlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D");
+  background-repeat: no-repeat;
+  h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Bebas Neue", cursive;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    button {
+      border: 1px solid transparent;
+      outline: none;
+      width: 200px;
+      padding: 0 20px;
+      margin: 10px;
+      border-radius: 10px;
+      height: 45px;
+      background-color: teal;
+      cursor: pointer;
+      color: white;
+      font-size: 16px;
+      font-weight: 600;
+      &:hover {
+        border: 3px solid teal;
+        background-color: white;
+        color: teal;
+      }
     }
   }
 }

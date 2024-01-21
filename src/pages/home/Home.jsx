@@ -18,10 +18,13 @@ const Home = () => {
   return (
     <>
       <div className={styles.buttonContainer}>
-        <button onClick={() => navigate("/form")}>Add New Course</button>
-        <button onClick={() => setShowList(!showList)}>
-          {showList ? "List View" : "Grid View"}
-        </button>
+        <h1>M&S University </h1>
+        <div>
+          <button onClick={() => navigate("/form")}>Add New Course</button>
+          <button onClick={() => setShowList(!showList)}>
+            {!showList ? "List View" : "Grid View"}
+          </button>
+        </div>
       </div>
       {showList ? <ListView /> : <CardView />}
     </>

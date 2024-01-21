@@ -21,6 +21,8 @@ const AddForm = () => {
     },
   });
 
+  // Submit form function
+
   const onSubmit = (data) => {
     let newItem = {
       ...data,
@@ -39,7 +41,7 @@ const AddForm = () => {
   return (
     <>
       <div className={styles.formContainer}>
-        <h2>Add Course</h2>
+        <h2>{courseInfo?.id !== undefined ? "Edit" : "Add"} Course</h2>
         <form onSubmit={handleSubmit(onSubmit)}>
           <div className={styles.fieldLabelContainer}>
             <label>Course</label>

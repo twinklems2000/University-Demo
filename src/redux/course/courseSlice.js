@@ -9,7 +9,13 @@ const initialState = {
       various spheres. Other areas include literature, art and social
       studies.`,
       id: 1,
-      subject: "hgvhfhvg",
+      subject: "Languages, Literature, Philosophy",
+    },
+    {
+      course: "Engineering",
+      description: `The practical and innovative application of maths and sciences will be used to design, develop and maintain infrastructures, products and systems on a large scale.`,
+      id: 2,
+      subject: "Civil Engineering, Electrical",
     },
   ],
   courseInfo: {},
